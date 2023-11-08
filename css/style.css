@@ -107,8 +107,15 @@
 
   /* ==============================================header */
   .nav_bg {
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
     color: var(--color-01);
+    padding: 2rem 0;
+  }
+  .nav {
+    width: 40%;
+    margin: 0 1rem;
+    white-space: nowrap;
+    text-transform: uppercase;
   }
   .header_bg {
     overflow: hidden;
