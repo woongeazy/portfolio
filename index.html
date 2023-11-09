@@ -94,18 +94,16 @@
         </div>
       </div>
       <div class="web">
-        <div class="container margin-auto">
+        <div class="container margin-auto pos-r">
           <h4>web</h4>
           <div class="web_pofol d-flex justify-between pos-r">
-            <div class="img_border">
-              <img src="https://picsum.photos/571/571" alt="placeholder" />
-            </div>
+            <img src="https://picsum.photos/571/571" class="web_img" alt="placeholder" />
 
             <!-- <div class="img_border"><img src="images/web01" alt="" /></div> -->
 
-            <img src="images/desktop.png" class="pos-a" alt="" />
-            <img src="images/phon.png" class="pos-a" alt="" />
-            <div class="web_text d-flex flex-column align-cbetween">
+            <img src="images/desktop.png" class="desktop pos-a" alt="" />
+            <img src="images/phon.png" class="phon pos-a" alt="" />
+            <div class="web_text d-flex flex-column justify-between">
               <h3>01.</h3>
               <h2>title</h2>
               <h5>제작 기간:</h5>
@@ -131,63 +129,74 @@
                   </li>
                 </ul>
               </div>
-              <div class="web_btns d-felx">
-                <a href="#">기획</a>
-                <a href="#">피그마</a>
-                <a href="#">web</a>
-              </div>
             </div>
           </div>
+          <ul class="web_btns pos-a d-flex justify-between">
+            <li><a href="#">기획</a></li>
+            <li><a href="#">피그마</a></li>
+            <li><a href="#">web</a></li>
+          </ul>
         </div>
       </div>
 
       <div class="info">
         <div class="container margin-auto">
-          <div class="info_left">
-            <h3>착실하고, 확실하게 <br />성장하는 한채웅 입니다.</h3>
-            <img src="images/profile.png" alt="프로필 사진" />
-            <h5>
-              Lorem ipsum dolor sit amet consectetur. Aliquam facilisis rhoncus
-              elit interdum. Eget elit dui odio consequat aenean faucibus ipsum.
-              Id cursus ac aliquam penatibus erat. Proin sit dui id amet
-              sagittis ut.
-            </h5>
-          </div>
-          <div class="info_right">
-            <div class="d-flex">
-              <h4>ABOUT-ME</h4>
-              <h5>HAN CHAE WOONG</h5>
-              <h5>1997 . 08 . 07</h5>
-              <h4>CONTACT</h4>
-              <h5>H&#183;P +82 10-8917-3629</h5>
-              <h5>hco2995&#x0040;naver.com</h5>
-              <h4>CERTIFICATE</h4>
-              <p>2023 . 08</p>
-              <h5>GTQ 1급</h5>
-              <p>2021 . 01</p>
-              <h5>운전면허 1종 보통</h5>
-              <p>2023 . 12 .01 (실기 예정)</p>
-              <h5>웹디자인 기능사</h5>
+          <h3 class="slogan">착실하고, 확실하게 <br />성장하는 한채웅 입니다.</h3>
+          <div class="d-flex justify-between">
+            <div class="info_left">
+              <img src="https://picsum.photos/452/482" class="profile_img" alt="placeholder">
+              <!-- <img src="images/profile.png" alt="프로필 사진" /> -->
+
+              <h5>
+                Lorem ipsum dolor sit amet consectetur. Aliquam facilisis rhoncus
+                elit interdum. Eget elit dui odio consequat aenean faucibus ipsum.
+                Id cursus ac aliquam penatibus erat. Proin sit dui id amet
+                sagittis ut.
+              </h5>
+
             </div>
-            <div class="d-flex">
-              <h4>ABOUT-ME</h4>
-              <h5></h5>
-              <h5></h5>
-              <h5></h5>
-              <h5></h5>
-              <h4>ABOUT-ME</h4>
-              <div class="skill">
-                <div class="d-flex">
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
+            <div class="info_right pos-r d-flex">
+              <div class="d-flex flex-column justify-between">
+                <h4>ABOUT-ME</h4>
+                <h5>HAN CHAE WOONG</h5>
+                <h5>1997 . 08 . 07</h5>
+                <h4>CONTACT</h4>
+                <h5>H&#183;P +82 10-8917-3629</h5>
+                <h5>hco2995&#x0040;naver.com</h5>
+                <h4>CERTIFICATE</h4>
+                <p>2023 . 08</p>
+                <h5>GTQ 1급</h5>
+                <p>2021 . 01</p>
+                <h5>운전면허 1종 보통</h5>
+                <p>2023 . 12 .01 (실기 예정)</p>
+                <h5>웹디자인 기능사</h5>
+              </div>
+              <div class="ens d-flex flex-column justify-between">
+                <div class="exp d-flex flex-column justify-between">
+                  <h4>EXPERIENCE</h4>
+                  <p>2019 . 03 ~ 2021 . 02</p>
+                  <h5>조선 이공대 자동차과 졸업</h5>
+                  <p>2023 . 06 ~ 2023 . 11</p>
+                  <h5>한울 직업전문 학교 (스마트 UXUI과정 수료)</h5>
+                  <p>2019 . 03 ~ 2021 . 02</p>
+                  <h5>조선 이공대 자동차과 졸업</h5>
+                  <p>2019 . 03 ~ 2021 . 02</p>
+                  <h5>조선 이공대 자동차과 졸업</h5>
                 </div>
-                <div class="d-flex">
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
+                <div class="skill">
+                  <h4>SKILL</h4>
+                  <div class="d-flex gap-24 justify-between mt-1">
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                  </div>
+                  <div class="d-flex gap-24 justify-between">
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                    <img src="https://picsum.photos/95/95" alt="placeholder" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -198,34 +207,38 @@
       <div class="footer">
         <div class="footer_bg">
           <div class="container margin-auto">
-            <div class="footer_left">
-              <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">design</a></li>
-                <li><a href="#">web</a></li>
-                <li><a href="#">about-me</a></li>
-              </ul>
+            <div class="footer_container d-flex justify-between">
+              <div class="footer_left">
+                <ul class="text-upp d-flex flex-column justify-between">
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">design</a></li>
+                  <li><a href="#">web</a></li>
+                  <li><a href="#">about-me</a></li>
+                </ul>
+              </div>
+              <div class="footer_right">
+                <h5 class="text-upp">sns</h5>
+                <ul class="sns_icons d-flex">
+                  <li>
+                    <a href="#"><img src="images/sns_icon01" alt="" />이동</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/sns_icon02" alt="" />이동</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/sns_icon03" alt="" />이동</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="footer_right">
-              <h5>sns</h5>
-              <ul>
-                <li>
-                  <a href="#"><img src="images/sns_icon01" alt="" />이동</a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/sns_icon02" alt="" />이동</a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/sns_icon03" alt="" />이동</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer_bottum">
+            <div class="footer_bottum d-flex justify-between align-end">
               <p class="copyright">
                 copyrightⓒ hancheawoong. 2023 all rights reserved.
               </p>
               <div class="footer_logo">
-                <img src="images/footer_logo.png" alt="포트폴리오 로고" />
+                <img src="https://picsum.photos/250/73" alt="placeholder">
+                
+                <!-- <img src="images/footer_logo.png" alt="포트폴리오 로고" /> -->
               </div>
             </div>
           </div>
