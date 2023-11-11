@@ -161,10 +161,13 @@ strong {
 }
 
 .all_container {
-  top: 1000px;
+  top: 500px;
   height: 100%;
   background: var(--color-01);
   z-index: 10;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* ==============================================header */
 .nav_bg {
