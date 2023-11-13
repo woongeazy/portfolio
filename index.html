@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolrio</title>
     <link rel="stylesheet" href="css/reset.min.css" />
-    <script
-      src="script/jquery.min.js"
-      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -27,7 +22,7 @@
           <div
             class="container margin-auto d-flex align-center justify-between"
           >
-            <img src="images/logo.png" alt="Portfolrio" />
+            <a href="index.html"><img src="images/logo.png" alt="Portfolrio" /></a>
             <ul class="nav d-flex justify-between">
               <li><a href="#">home</a></li>
               <li><a href="#design">design</a></li>
@@ -52,9 +47,14 @@
             <h4>design</h4>
             <ul class="design_title d-flex gap-1 mt-1">
               <li><a href="#">sns</a></li>
-              <li><a href="#">DetailedPage</a></li>
+              <li><a href="#">Detailed Page</a></li>
+              <li><a href="#">card nws</a></li>
+              <li><a href="#">Edit Design</a></li>
+              <li><p>↓</p></li>
+              <li class="d-none"><p>↑</p></li>
             </ul>
             <div class="design_contents">
+              <h5 class="d-none">sns</h5>
               <ul class="sns_design d-flex justify-between">
                 <li>
                   <img src="https://picsum.photos/333/333" alt="placeholder" />
@@ -74,7 +74,8 @@
                 <li><img src="images/sns03.png" alt="" /></li>
                 <li><img src="images/sns04.png" alt="" /></li> -->
               </ul>
-              <ul class="page_design d-flex justify-between d-none">
+              <h5 class="d-none">page design</h5>
+              <ul class="page_design d-flex justify-between">
                 <li>
                   <img src="https://picsum.photos/452/858" alt="placeholder" />
                 </li>
@@ -88,6 +89,30 @@
                 <!-- <li><img src="images/page01.png" alt="" /></li>
                 <li><img src="images/page02.png" alt="" /></li>
                 <li><img src="images/page03.png" alt="" /></li> -->
+              </ul>
+              <h5 class="d-none">card design</h5>
+              <ul class="card_design d-flex justify-between">
+                <li>
+                  <img src="https://picsum.photos/452/858" alt="placeholder" />
+                </li>
+                <li>
+                  <img src="https://picsum.photos/id/123/452/858" alt="placeholder" />
+                </li>
+                <li>
+                  <img src="https://picsum.photos/452/858" alt="placeholder" />
+                </li>
+              </ul>
+              <h5 class="d-none">edit design</h5>
+              <ul class="edit_design d-flex justify-between">
+                <li>
+                  <img src="https://picsum.photos/452/858" alt="placeholder" />
+                </li>
+                <li>
+                  <img src="https://picsum.photos/id/544/452/858" alt="placeholder" />
+                </li>
+                <li>
+                  <img src="https://picsum.photos/452/858" alt="placeholder" />
+                </li>
               </ul>
             </div>
           </div>
@@ -233,7 +258,7 @@
             </div>
             <div class="footer_bottum d-flex justify-between align-end">
               <p class="copyright">
-                copyrightⓒ hancheawoong. 2023 all rights reserved.
+                copyright&copy; hancheawoong. 2023 all rights reserved.
               </p>
               <div class="footer_logo">
                 <a href="#"><img src="https://picsum.photos/250/73" alt="placeholder"></a>
