@@ -16,18 +16,20 @@ $(function () {
   $('.main_content ul > li').on('mouseover', function(){
     $(this).find('img').css({
         width: '120%'
-    })
+    });
   })
   $('.main_content ul > li').on('mouseout', function(){
     $(this).find('img').css({
         width: '100%'
-    })
-  })
+    });
+  });
 
-
+// 한채웅 태크 클라우드 애니메이션 효과
 
 
 });
+
+let tagTop = $('.tag_imgs > img:nth-child(1)')
 
 let tabBtn = $(".design_title > li");
 let tabCont = $(".design_contents > .main_content");
