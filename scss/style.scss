@@ -209,7 +209,7 @@ html {
 }
 .arrow {
   top: 28%;
-  left: -34%;
+  left: -40%;
 }
 .tag_imgs {
   left: 33%;
@@ -404,9 +404,9 @@ html {
 }
 .exp {
   height: 100%;
-}
-.exp h5:nth-last-child(1) {
-  margin: 0 0 1rem 0;
+  div {
+    line-height: 2.3;
+  }
 }
 .exp p {
   color: var(--color-03);

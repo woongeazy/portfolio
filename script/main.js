@@ -17,7 +17,7 @@ $(function () {
     $(this).find('img').css({
         width: '120%'
     });
-  })
+  });
   $('.main_content ul > li').on('mouseout', function(){
     $(this).find('img').css({
         width: '100%'
@@ -25,9 +25,13 @@ $(function () {
   });
 
 // 한채웅 태크 클라우드 애니메이션 효과
-
+arrowTop.stop(true).animate({
+  left: "0"
+}, 800, "easeOutQuad")
 
 });
+
+let arrowTop = $('.arrow')
 
 let tagTop = $('.tag_imgs > img:nth-child(1)')
 
