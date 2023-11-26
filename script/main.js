@@ -3,7 +3,7 @@ $(document).ready(function () {
     e.preventDefault();
   });
 });
-// a 기능 비활성화
+// a 기본 기능 비활성화
 
 $(function () {
   // tabCont.hide().eq(0).show(); 
@@ -12,6 +12,8 @@ $(function () {
     const index = $(this).index();
     tabCont.eq(index).show().siblings().hide();
   });
+
+
 
   $('.main_content ul > li').on('mouseover', function(){
     $(this).find('img').css({
@@ -24,9 +26,17 @@ $(function () {
     });
   });
 
-  
-  
+// popup window
+$(".popup").hide()
+
+
+
 });
+
+
+
+
+
 // 한채웅 태크 클라우드 애니메이션 효과
 
 window.addEventListener('scroll', function (){
