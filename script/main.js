@@ -26,6 +26,19 @@ $(function () {
     });
   });
 
+
+  window.onload = function() {
+    let imgScroll = document.querySelector(".wdb_img");
+
+    imgScroll.addEventListener("mouseover",() => {
+      console.log("over");
+      imgScroll.querySelectorAll("img").style.animation=`imgscroll 3s forwards`
+    });
+  };
+
+
+
+
 // popup window
 $(".popup").hide()
 
@@ -41,7 +54,7 @@ $(".popup").hide()
 
 window.addEventListener('scroll', function (){
   let value = window.scrollY;
-  console.log("스크롤 ="+value);
+  // console.log("스크롤 ="+value);
 
   if (value > 100) {
     topAni.style.animation=`topback 2s forwards`;
