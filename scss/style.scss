@@ -4,6 +4,7 @@
   --color-01: #ffffff;
   --color-02: #d6d6d6;
   --color-03: #949494;
+  --color-04: #333;
   --font-color: #333;
   --gb-color: #f9e4d5;
 }
@@ -11,7 +12,7 @@ body {
   font-size: 20px;
   font-family: "My Soul", cursive;
   font-family: "Noto Sans KR", sans-serif;
-  /* color:var(--color-01) */
+  // color:var(--color-01)
 }
 /*=============================================== font-size */
 h1 {
@@ -600,16 +601,6 @@ hr {
   img {
     position: absolute;
     width: 100%;
-    animation: imgscroll 3s ease-in-out;
-  }
-}
-
-@keyframes imgscroll {
-  0% {
-    top: 0;
-  }
-  100% {
-    bottom: 0;
   }
 }
 
@@ -621,14 +612,20 @@ hr {
   flex-wrap: wrap;
   height: 576px;
 }
-.tool_icons > li {
-  border-radius: 10px;
-  overflow: hidden;
+.tool_icons {
+  div {
+    display: flex;
+    img {
+      display: inline-block;
+      padding: 2rem 2rem 0 0;
+    }
+  }
 }
 .web_btns {
+  position: relative;
+  left: 69.5%;
   width: 571px;
   margin: 6rem 0 0 0;
-  right: 0%;
   gap: 1rem;
 }
 .web_btns li {

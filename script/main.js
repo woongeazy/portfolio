@@ -29,16 +29,16 @@ $(function () {
     });
   });
 
-  window.onload = function () {
-    let imgScroll = document.querySelector(".wdb_img");
+  // window.onload = function () {
+  //   let imgScroll = document.querySelector(".wdb_img");
 
-    imgScroll.addEventListener("mouseover", () => {
-      console.log("over");
-      imgScroll.querySelectorAll(
-        "img"
-      ).style.animation = `imgscroll 3s forwards`;
-    });
-  };
+  //   imgScroll.addEventListener("mouseover", () => {
+  //     console.log("over");
+  //     imgScroll.querySelectorAll(
+  //       "img"
+  //     ).style.animation = `imgscroll 3s forwards`;
+  //   });
+  // };
 
   // popup window
   $(".popup").hide();
