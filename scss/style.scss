@@ -271,14 +271,14 @@ html {
 }
 .center {
   position: relative;
-  top: 50%;
+  top: -30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 0;
+  width: 1px;
   height: 100px;
   .arrow_bottum {
     position: absolute;
-    top: 430%;
+    top: 100%;
     left: 0;
     transform: translate(-50%, -50%);
     height: 50px;
