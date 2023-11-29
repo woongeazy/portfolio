@@ -44,8 +44,8 @@ $(function () {
   $(".popup").hide();
   $(".kakao_qr > img").hide()
   $(".popup").on("click", function(){
-    $(".popup").hide();
     $(".kakao_qr > img").hide()
+    $(".popup").hide();
   })
 
   $(".page_design > li").on("click", function () {
