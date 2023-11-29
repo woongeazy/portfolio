@@ -42,8 +42,10 @@ $(function () {
 
   // popup window
   $(".popup").hide();
+  $(".kakao_qr > img").hide()
   $(".popup").on("click", function(){
     $(".popup").hide();
+    $(".kakao_qr > img").hide()
   })
 
   $(".page_design > li").on("click", function () {
@@ -98,8 +100,8 @@ $(function () {
   $(".ka_qr").on("click", function () {
     $(".popup").show();
     $(".popup_imgs > div").hide()
-    $(".popup_imgs > .ka_qr").show()
-    $(".ka_qr > img").show();
+    $(".popup_imgs > .kakao_qr").show()
+    $(".kakao_qr > img").show();
   });
   
 
