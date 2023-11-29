@@ -182,12 +182,28 @@ html {
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
   .popup_imgs {
-    height: 100%;
-    overflow: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    div {
+      height: 100%;
+      width: 50%;
+      overflow: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+    .leafl {
+      width: 100%;
+
+    }
+    .movie {
+      width: 80%;
+    }
+    img {
+      width: 100%;
+      vertical-align: top;
+    }
   }
 }
 /* ==============================================header */
@@ -468,6 +484,9 @@ html {
 .design_title {
   margin: 2rem 0 0 0;
   text-transform: uppercase;
+  li {
+    cursor: pointer;
+  }
 }
 .main_content h5 {
   font-weight: bold;
@@ -538,13 +557,15 @@ html {
   }
   .leaflet_design,
   .popart_design {
-    margin: 0 5rem;
+    gap: 6rem;
   }
-  .popart_design li:nth-child(2) {
-    img {
-      position: absolute;
-      top: 0;
-      transform: translateX(-50%);
+  .popart_design {
+    li {
+      img {
+        position: absolute;
+        top: 0%;
+        transform: translateX(-50%);
+      }
     }
   }
   .magazine_design li {
@@ -712,7 +733,7 @@ hr {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
     }
   }
   li:nth-child(1) {
