@@ -503,14 +503,14 @@ html {
   li {
     position: relative;
     box-sizing: border-box;
-    border-radius: 30px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     transition: all 300ms;
     overflow: hidden;
   }
 }
 .design_contents ul > li:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 .design_contents ul > li img {
   position: absolute;
@@ -529,7 +529,7 @@ html {
   border-radius: 100px;
   color: var(--color-01);
   padding: 0.3rem 1rem;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 .design_title > .on {
   background: var(--color-01);
@@ -752,4 +752,15 @@ hr {
 
 .footer_logo {
   right: 0%;
+}
+
+.kakao_qr {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  img {
+    width: 100%;
+  }
 }

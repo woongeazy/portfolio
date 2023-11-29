@@ -20,7 +20,7 @@ $(function () {
 
   $(".main_content ul > li").on("mouseover", function () {
     $(this).find("img").css({
-      width: "120%",
+      width: "110%",
     });
   });
   $(".main_content ul > li").on("mouseout", function () {
@@ -93,6 +93,13 @@ $(function () {
     $(".popup_imgs > div").hide()
     $(".popup_imgs > .movie").show()
     $(".movie > img").show();
+  });
+
+  $(".ka_qr").on("click", function () {
+    $(".popup").show();
+    $(".popup_imgs > div").hide()
+    $(".popup_imgs > .ka_qr").show()
+    $(".ka_qr > img").show();
   });
   
 
