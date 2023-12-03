@@ -104,6 +104,16 @@ $(function () {
     $(".kakao_qr > img").show();
   });
   
+  $('.m_nav_icons > i:nth-child(1)').on('click', function(){
+    $(".m_nav_icons > i:nth-child(1)").addClass('d-none')
+    $(".m_nav_icons > i:nth-child(2)").removeClass('d-none')
+    $(".m_nav_bg").css({right: "0%"})
+  })
+  $('.m_nav_icons > i:nth-child(2)').on('click', function(){
+    $(".m_nav_icons > i:nth-child(2)").addClass('d-none')
+    $(".m_nav_icons > i:nth-child(1)").removeClass('d-none')
+    $(".m_nav_bg").css({right: "-100%"})
+  })
 
 
 
