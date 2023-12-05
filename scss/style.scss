@@ -808,7 +808,7 @@ hr {
   }
   .m_nav_bg {
     position: relative;
-    right: 0%;
+    right: -100%;
     top: 70px;
     width: 130px;
     height: 100vh;
@@ -822,9 +822,36 @@ hr {
         height: 40px;
         a {
           line-height: 40px;
+          height: 40px;
         }
       }
     }
+  }
+}
+// ===============================m_header_text
+.header_bg {
+  .header_text {
+    white-space: nowrap;
+  }
+  .tag_imgs {
+    img {
+      width: 110%;
+      top: 17%;
+      left: -40%;
+      
+    }
+    img:nth-child(2) {
+      transform: translateX(-36%);
+    }
+    .arrow {
+      top: 7%;
+      left: 0;
+      width: 300%;
+      transform: translateX(-81%);
+    }
+  }
+  .center {
+    top: -44%;
   }
 }
   .design_title {
