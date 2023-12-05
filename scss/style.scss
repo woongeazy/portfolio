@@ -549,10 +549,6 @@ html {
       transform: translate(-50%, 0%);
     }
   }
-  .card_design li {
-    width: 333px;
-    height: 333px;
-  }
   .leaflet_design,
   .popart_design {
     gap: 6rem;
@@ -854,11 +850,50 @@ hr {
     top: -44%;
   }
 }
+// ===========================popup
+.popup {
+  .popup_imgs {
+    div {
+        width: 80%;
+    }
+    .bann {
+      top: 65%;
+    }
+    .card {
+      top: 80%;
+    }
+    .popa {
+      top: 65%;
+    }
+    .movie {
+      width: 100%;
+      top: 80%;
+    }
+  }
+}
+
+  // ==============================dwsign
   .design_title {
     overflow: auto;
+    gap: 0;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    li {
+      margin: .5rem;
+      font-size: .75rem;
+      display: flex;
+      align-items: center;
+    }
   }
-  .design_tab {
-    overflow-x: auto;
+  .main_content {
+    ul {
+      li {
+        margin: 0 .5rem;
+        box-shadow: none;
+        height: 100px;
+      }
+    }
   }
   .web {
     overflow-x: auto;
